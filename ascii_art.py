@@ -115,7 +115,7 @@ class ASCIIArt():
                     if self.return_color:
                         R, G, B = scaled_color_img[i][j]
                         ascii_color[i][j] = (int(R), int(G), int(B))
-                ascii_img[i][j] = char_list[brightness * char_list_length / 256]
+                ascii_img[i][j] = char_list[brightness * char_list_length / 255]
         if self.return_color:
             return ascii_img, ascii_color
         else:
