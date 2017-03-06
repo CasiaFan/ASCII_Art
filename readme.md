@@ -4,6 +4,12 @@ ascii_art.py script is used to convert videos/images to ascii art. If specified 
 1. Make sure resolution of input video is not large when converting from video to ascii art video <br>
 2. If print out directly in terminal, adjust your terminal window size and font size first (in case of automatic wrapping) <br>
 
+### Dependency
+Pillow
+numpy
+scikit-video
+opencv
+
 ### Usage:
 python ascii_art.py [-h] [--input INPUT] [--output OUTPUT] [--return_color] <br>
                     [--scale SCALE] [--method METHOD] <br>
